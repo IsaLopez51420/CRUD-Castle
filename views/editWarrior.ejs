@@ -1,0 +1,36 @@
+
+  </div>
+</footer>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Formulario para editar warrior</h1>
+    <form action="/castle/editWarrior/<%- result[0].warrior_id %>" method="post" enctype="multipart/form-data"class="form" >
+      <h3 class="titulo">Edit User</h3>
+      <label for="name"></label>
+      <input  type="text" placeholder="Name" id="name" name="name" value ="<%- result[0].name %>">
+      <br> <br>
+      <label for="email"></label>
+      <input type="email" placeholder="Email" id="email" name="email"value ="<%- result[0].email %>">
+      <br> <br>
+      <label for="phone"></label>
+      <input type="tel" placeholder="Phone" id="phone" name="phone"value ="<%- result[0].phone %>">
+      <br> <br>
+      <label for="file"></label>
+      <input type="file" id="file" name="img">
+      <br> <br>
+      <label for="description"></label>
+      <textarea id="description" placeholder="<%- result[0].description %>" name="description" rows="6" cols="10"></textarea>
+      <br>
+      <!-- <button class="boton2" type="submit">Save user</button> -->
+      <button class="boton2" type="submit">Edit user</button>
+
+    </form>
+  </body>
+</html>

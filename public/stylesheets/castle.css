@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+}
+
+/* barra de navegación */
+header {
+    background-image: url("/images/Dragones/17013.jpg");
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 56px);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.izquierda {
+    padding-left: 15%;
+}
+
+.derecha {
+    padding-right: 7%;
+}
+
+h1 {
+    text-align: center;
+    padding: 18%;
+    font-weight: lighter;
+    color: white;
+}
+
+.menu {
+    color: white;
+}
+
+/* seccion template */
+
+.template {
+    text-align: center;
+    width: 56%;
+    margin-left: 25%;
+}
+
+.centrarCartas {
+    justify-content: center;
+    text-align: center;
+    margin: 0px 160px 30px 160px;
+}
+
+.sep {
+    padding: 25px;
+    margin-left: 40px;
+    box-shadow: 0 9px 10px #8D8B8B;
+}
+
+/* seccion azul */
+.azul {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-left: 0%;
+    height: 500px;
+    background-image: linear-gradient(to left,
+            rgb(3, 3, 3),
+            rgba(51, 66, 179, 0.5)),
+        url('/images/Dragones/montanas-en-lago-al-atardecer_3840x2160_xtrafondos.com.jpg');
+}
+
+.luchador1 {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.urhan {
+    width: 25%;
+    color: white;
+    margin: 9% 0% 7% 27%;
+
+}
+
+button {
+    border-radius: 20px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.awesome {
+    text-align: center;
+    width: 54%;
+    margin-left: 23%;
+}
+
+.scroll {
+    width: 48%;
+}
+
+/* seccion 4 */
+.section4 {
+    
+    padding-bottom: 8vw;
+    padding-top: 1vw;
+    text-align: center;
+    background-color: white;
+}
+
+.section4 .grid-warriors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.section4 .warrior {
+    width: 20px;
+    height: 27px;
+}
+
+.section4 a {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.section4 img {
+    width: 90%;
+    height: 300px;
+    object-fit: unset;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* seccion castillito */
+.castillo {
+    background-color: RGB(54, 54, 111);
+    height: 300px;
+    width: 100%;
+    margin-left: 0%;
+}
+
+.castillitos {
+    justify-content: center;
+    display: flex;
+    margin-left: 43%;
+    gap: 100px;
+}
+
+.who {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* formulario */
+
+.formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+
+.formulario {
+    box-shadow: 0 9px 10px #8D8B8B;
+    padding: 40px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 35%;
+}
+
+
+.formu {
+    padding-left: 10%;
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.boton2 {
+    margin-left: 23%;
+}
+
+.solution {
+    width: 38%;
+    margin: 6%;
+    padding-top: 12%;
+}
+
+/* footer */
+
+
+.blanco {
+    margin-top: 30px;
+    color: white !important;
+    text-align: center;
+}
+
+.features {
+    margin-left: 47%;
+}
+
+.marg {
+    margin-top: 60px;
+}
